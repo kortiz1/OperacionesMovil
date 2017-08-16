@@ -17,23 +17,26 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/titulo"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/txtPrimer_numero"
+            android:id="@+id/txtNumeroUno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="@string/primer_numero" />
 
         <EditText
-            android:id="@+id/txtSegundo_numero"
+            android:id="@+id/txtNumeroDos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="@string/segundo_numero" />
 
         <TextView
             android:id="@+id/lblResultado"
