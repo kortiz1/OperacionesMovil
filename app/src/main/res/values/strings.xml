@@ -15,4 +15,5 @@
         <item>@string/resta</item>
         <item>@string/multiplicacion</item>
         <item>@string/division</item></string-array>
+    <string name="mesanje_error_tres">No puedes dividir entre cero</string>
 </resources>
