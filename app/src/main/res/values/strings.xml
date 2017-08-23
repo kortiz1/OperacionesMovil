@@ -1,9 +1,18 @@
 <resources>
     <string name="app_name">operaciones</string>
-    <string name="titulo" translatable="false">TÍTULO</string>
-    <string name="resultado" translatable="false">RESULTADO</string>
-    <string name="primer_numero" translatable="false">Primer Número</string>
-    <string name="segundo_numero" translatable="false">Segundo Número</string>
-    <string name="calcular" translatable="false">CALCULAR</string>
+    <string name="titulo" >TÍTULO</string>
+    <string name="resultado">Resultado</string>
+    <string name="primer_numero">Primer Número</string>
+    <string name="segundo_numero" >Segundo Número</string>
+    <string name="calcular" >Operator</string>
     <string name="borrar">Borrar</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multiplicacion">Multiplicacion</string>
+    <string name="division">Division</string>
+    <string-array name="operaciones">
+   <item>@string/suma</item>
+        <item>@string/resta</item>
+        <item>@string/multiplicacion</item>
+        <item>@string/division</item></string-array>
 </resources>

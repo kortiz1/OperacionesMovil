@@ -2,4 +2,9 @@
 <resources>
     <string name="app_name">operaciones</string>
     <string name="borrar">clear</string>
+    <string name="resta">Subtract</string>
+    <string name="multiplicacion">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="calcular" translatable="false">Operator</string>
+    <string name="resultado">Result</string>
 </resources>
