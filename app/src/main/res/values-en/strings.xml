@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">operaciones</string>
-    <string name="borrar">clear</string>
+    <string name="app_name">Operaciones</string>
+    <string name="borrar">Delete</string>
     <string name="resta">Subtract</string>
     <string name="multiplicacion">Multiplication</string>
     <string name="division">Division</string>
     <string name="calcular" translatable="false">Operator</string>
     <string name="resultado">Result</string>
+    <string name="primer_numero">First Number</string>
+    <string name="segundo_numero">Second Number</string>
+    <string name="suma">Add</string>
+    <string name="titulo">Title</string>
 </resources>

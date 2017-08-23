@@ -80,7 +80,7 @@ public class Principal extends AppCompatActivity {
             }
 
 
-            res.setText("" + resultado);
+            res.setText("" +resultado);
         }
     }
 
