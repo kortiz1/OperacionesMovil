@@ -62,7 +62,7 @@ public class Principal extends AppCompatActivity {
     public void calcular(View v){
         int  opcion;
         double num1, num2, resultado=0;
-
+        res.setText("");
         if(validar()) {
 
             opcion = operaciones.getSelectedItemPosition();
@@ -88,7 +88,7 @@ public class Principal extends AppCompatActivity {
             }
 
 
-            res.setText("" +resultado);
+            res.setText("" +String.format("%.2f", resultado));
         }
     }
 
@@ -98,6 +98,7 @@ public class Principal extends AppCompatActivity {
         n1.setText("");
         n2.setText("");
         n1.requestFocus();
+        operaciones.setSelection(0);
     }
 
 }

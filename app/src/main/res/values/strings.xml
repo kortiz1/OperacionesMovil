@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">operaciones</string>
+    <string name="app_name">Operaciones</string>
     <string name="titulo" >TÍTULO</string>
     <string name="resultado">Resultado</string>
     <string name="primer_numero">Primer Número</string>
